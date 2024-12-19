@@ -12,15 +12,23 @@ header {
   display: flex;
   background-color: white;
   justify-content: space-between;
+  padding: 1.4rem 10rem;
+  align-items: center;
 }
 
 header ul {
   list-style: none;
+  display: flex;
+  gap: 4rem;
+  font-weight: bold;
+}
+
+header ul li a {
   text-decoration: none;
+  color: black;
 }
 
 header img {
   width: 2rem;
   object-fit: contain;
-  padding-left: 4rem;
 }
