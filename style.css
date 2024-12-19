@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+body {
+  background-color: rgb(49, 58, 66);
+}
+
+header {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+}
+
+header ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+header img {
+  width: 2rem;
+  object-fit: contain;
+  padding-left: 4rem;
+}
